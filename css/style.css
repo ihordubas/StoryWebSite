@@ -23,3 +23,63 @@
     margin-top: -85px;
     letter-spacing: 60px;
 }
+
+/* =================  Section 1   =============== */
+
+#setion1 {
+    width: 100%;
+    height: auto;
+}
+
+.s1-header-small {
+    font-size: 14px;
+    color: #7d8b90;
+    text-transform: uppercase;
+}
+
+.s1-header-big {
+    font-size: 36px;
+    color: #273d46;
+}
+
+.s1-text-1, .s1-text-2 {
+    font-size: 24px;
+    color: #52646b;
+}
+
+.s1-text-1 {
+    margin-top: 80px;
+}
+
+.s1-text-2 {
+    margin-top: 60px;
+}
+
+.s1-photo {
+    background-image: url(../img/section-1volcano.jpg);
+    border: 15px solid white;
+    width: 100px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
