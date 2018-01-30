@@ -1,0 +1,25 @@
+/* =================  Header   =============== */
+
+.text-top-bar {
+    position: relative;
+    padding-top: 23px;
+    text-align: center;
+    font-size: 68px;
+    color: white;
+    height: 129px;
+    width: 296px;
+    background-color: #80b7b3;
+    margin: 0 auto;
+    -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 0px rgba(0, 0, 0, 0.3); 
+     -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 0px rgba(0, 0, 0, 0.3); 
+     box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.3), 0 1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.text-bg-top-bar {
+    text-transform: uppercase;
+    font-size: 189px;
+    color: #e9ebec;
+    text-align: center;
+    margin-top: -85px;
+    letter-spacing: 60px;
+}
