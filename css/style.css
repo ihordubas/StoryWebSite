@@ -55,13 +55,30 @@
     margin-top: 60px;
 }
 
+.flat-button {
+  margin-top: 42px; 
+  position: relative;
+  width: 35%;
+  height: 44px;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  background: #80b7b3;
+  border-radius: 25px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.flat-button:hover {
+    background-color: darkorange;
+    transition: 0.5s linear;
+}
+
 .s1-photo {
     background-image: url(../img/section-1volcano.jpg);
     border: 15px solid white;
-    width: 100px;
-    
+    width: 100px;   
 }
-
 
 
 
