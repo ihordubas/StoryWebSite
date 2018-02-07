@@ -56,7 +56,7 @@
     margin-top: 60px;
 }
 
-.flat-button-1, .flat-button-2, .flat-button-3{
+.flat-button-1, .flat-button-2, .flat-button-3 {
   margin-top: 42px; 
   position: relative;
   width: 200px;
@@ -72,7 +72,7 @@
   transition-duration: 0.4s;
 }
 
-.flat-button-1:hover, .flat-button-2:hover, .flat-button-3:hover {
+.flat-button-1:hover, .flat-button-2:hover, .flat-button-3:hover, {
    color: white;
    background-color: #4CAF50; 
    color: white;
@@ -167,6 +167,7 @@ video {
     height: 315px;
     position: relative;
     margin-top: -53px;
+    box-shadow: 0 0 6px 3px rgba(58, 219, 253, 0.35);
 }
 
 .white-block-text {
@@ -239,59 +240,69 @@ video {
     background-size: cover;
 }
 
+/* FORM */
 
-
-.overlay {
-	position: absolute;
-	width: 100%;
-	height: 100vh;
-	top: 0;
-	left: 0;
-	background-color: rgba(0, 0, 0, .5);
-	display: none;
+.cont {
+ height: 325px;
+ width: 670px;
+ background-color: #3c4f57;
+ margin: 0 auto 0 auto!important; /* вирівнювання по центру*/
+ text-align: center;
+ padding-bottom: 20px;
 }
 
-.popup {
-	position: absolute;
-	width: 300px;
-	height: 180px;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
-	padding: 40px;
-	background-color: #FFF;
+form {
+    padding-top: 5px;    
 }
 
-.close-popup {
-	position: absolute;
-	top: 15px;
-	right: 15px;
-	width: 23px;
-	height: 23px;
-	cursor: pointer;
+.form-text {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: #a2a9ab;
+    padding: 60px 100px 0 120px;
 }
 
-.close-popup:before {
-	content: '';
-	background-color: #000;
-	position: absolute;
-	height: 1px;
-	width: 31px;
-	top: 11px;
-	left: -4px;
-	transform: rotate(-45deg);
+.dws-input {
+    display: inline;
 }
 
-.close-popup:after {
-	content: '';
-	background-color: #000;
-	position: absolute;
-	height: 1px;
-	width: 31px;
-	top: 11px;
-	transform: rotate(45deg);
-	left: -4px;
+input[type="text"],input[type="email"]{
+ width: 250px;
+ height: 45px;
+ font-size: 18px;
+ margin-bottom: 25px;
+ padding-left: 40px;
+ background-color: #2e3e43;
+ color: #a2a9ab;
+ border-radius: 25px;
 }
+.dws-input input:hover{
+ box-shadow: 0 0 6px 3px rgba(58, 219, 253, 0.35);
+}
+
+.flat-button-submit{
+  margin-top: 42px; 
+  position: relative;
+  width: 200px;
+  height: 44px;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  background: #80b7b3;
+  border-radius: 25px;
+  cursor: pointer;
+  text-transform: uppercase;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.flat-button-submit:hover {
+   color: white;
+   background-color: #4CAF50; 
+   color: white;
+}
+
 
 
 
