@@ -31,6 +31,7 @@
     height: auto;
 }
 
+
 .s1-header-small {
     font-size: 14px;
     color: #7d8b90;
@@ -122,6 +123,11 @@
 
 
 /* Section 3*/
+#section3 {
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+}
 
 video {
     position: relative;
@@ -130,7 +136,6 @@ video {
     width: auto;
     height: auto;
 }
-
 
 
 
