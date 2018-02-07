@@ -159,6 +159,53 @@ video {
     text-align: left;
 }
 
+.white-block{
+    background-color: white;
+    height: 315px;
+    position: relative;
+    margin-top: -53px;
+}
+
+.white-block-text {
+    font-size: 26px;
+    color: black;
+    position: relative;
+    padding: 53px 75px 102px 100px;
+}
+
+.information {
+    margin-top: -64px;
+    margin-left: 100px;
+}
+
+.author {
+    font-size: 14px;
+    color: black;
+    text-transform: uppercase;
+    position: relative;
+    display: inline;
+    letter-spacing: 4px;
+}
+
+.date {
+    font-size: 14px;
+    color: #7d8b90;
+    text-transform: uppercase;
+    position: relative;
+    display: inline;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* Section 5*/
 
