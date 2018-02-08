@@ -261,7 +261,7 @@ video {
 
 .cont {
  height: 325px;
- width: 670px;
+ width: 100%;
  background-color: #3c4f57;
  margin: 0 auto 0 auto;
  text-align: center;
@@ -278,7 +278,7 @@ form {
     text-align: center;
     color: #a2a9ab;
     padding: 60px 100px 0 120px;
-    margin-top: 4px;
+    margin-top: 0;
 }
 
 .dws-input {
@@ -316,8 +316,9 @@ input[type="text"],input[type="email"]{
 }
 
 .flat-button-submit:hover {
-   color: white;
-   background-color: #4CAF50; 
+   color: #80b7b3;
+   background-color: white; 
+   border: 2px solid #80b7b3;
 }
 
 
