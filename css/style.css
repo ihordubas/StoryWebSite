@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
 body {
     margin: 0;
     padding: 0;
@@ -16,7 +19,7 @@ header {
     font-size: 68px;
     color: white;
     height: 129px;
-    width: 296px;
+    width: 21%;
     background-color: #80b7b3;
     margin: 0 auto;
     -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 0px rgba(0, 0, 0, 0.3); 
@@ -77,9 +80,10 @@ header {
     color: #7d8b90;
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
 }
 
-.s1-header-big {
+.s1-header-big, .s4-header-big {
     font-size: 36px;
     color: #273d46;
     font-family: 'Playfair Display', serif;
@@ -135,6 +139,7 @@ header {
     text-transform: uppercase;
     text-align: center;
     font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
 } 
 
 .s2-header {
@@ -202,6 +207,7 @@ video {
     text-transform: uppercase;
     text-align: left;
     font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
 }
 
 .white-block{
@@ -242,7 +248,7 @@ video {
     position: relative;
     display: inline;
     font-weight: bold;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -336,6 +342,179 @@ input[type="text"],input[type="email"]{
    border: 2px solid #80b7b3;
 }
 
+@media(min-width:0px) and (max-width:320px) {
+    .text-top-bar {
+        width: 80px;
+        height: 40px;
+        font-size: 12px;
+    }
+    
+    .text-bg-top-bar {
+        margin: -20px 0 0 25px;
+        font-size: 40px;
+        letter-spacing: 30px;
+    }
+    
+    .s1-header-small {
+        font-size: 10px;
+        margin: -50px 0 0 10px;
+    }
+    
+    .menu-photo {
+        width: 100%;
+    }
+    
+    .s1-photo {
+        height: 200px;
+        border: 4px solid white;
+        box-shadow: 2px lightgray;
+    }
+    
+    .rose-block {
+        display: none;
+    }
+    
+    .menu-text {
+        width: 100%;
+        margin: 0;
+    }
+    
+    .s1-header-big, .s4-header-big {
+        padding: 15px 0 0 35px;
+        font-size: 18px;
+        text-align: center;
+        width: 90%;
+    }
+    
+    .s1-text-1, .s1-text-2 {
+        text-align: center;
+        font-size: 13px;
+        width: 95%;
+        margin-top: 12px;
+        padding-left: 15px;
+    }
+  
+    .flat-button-1, .flat-button-2, .flat-button-3, .flat-button-submit {
+        margin-top: -10px;
+        box-shadow: 0 0 5px 3px lightgray; 
+        width: 150px;
+        height: 35px;
+        font-size: 12px;
+    }
+    
+    .center-1 {
+        padding-left: 42px;
+    }
+    
+    .s2-header-small {
+        font-size: 10px;
+        margin-top: -170px;
+    }
+    
+    .s2-header {
+        font-size: 18px;
+        text-align: center;
+        width: 90%;
+        padding-left: 30px;
+    }
+    
+    .s2-photo {
+        width: 100%;
+        height: 200px;
+        border: 4px solid white;
+        box-shadow: 0;
+        margin-top: 20px;
+    }
+    
+    .s2-text-1, .s2-text-2 {
+        text-align: center;
+        font-size: 13px;
+        width: 95%;
+        margin: 0;
+        margin-top: 15px;
+    }
+   
+    .flat-button-2 {
+        margin-top: 15px;
+    }
+    
+    .center-2 {
+        padding-left: 62px;
+    }
+  
+    #section3 {
+        margin-top: 15px;
+    }
+    
+    .purple-block {
+        display: none;
+    }
+    
+    .s3-header-small {
+        font-size: 10px;
+        text-align: center;
+        margin-top: -120px;
+    }
+    
+    .s4-header-big {
+        margin-top: -30px;
+    }
+    
+    .white-block {
+        margin-top: -10px;
+        width: 100%;
+        height: 140px;
+        box-shadow: 0 0 5px 2px lightgray;
+    }
+    
+    .white-block-text {
+        width: 100%;
+        font-size: 13px;
+        padding: 0;
+        text-align: center;
+    }
+    
+    .information {
+        margin: -10px 0 0 15px;
+    }
+    
+    .author, .date {
+        font-size: 10px;
+        letter-spacing: 2px;
+        text-align: left;
+    }
+
+    .flat-button-3 {
+        margin-top: 15px;
+    }
+    
+    .center-3 {
+        padding-right: 85px;
+    }
+    
+    #section5 {
+        margin-top: 35px;
+    }
+    
+    .cont {
+        height: 250px;
+    }
+    
+    .form-text {
+        padding: 15px 5px 5px 5px;
+        font-size: 12px;
+    }
+    
+    input[type="text"],input[type="email"] {
+        width: 200px;
+        height: 35px;
+        font-size: 14px;
+    }
+    
+    .parallax {
+        min-height: 150px;
+    }   
+}
 
 
 
