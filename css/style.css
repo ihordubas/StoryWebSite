@@ -70,20 +70,18 @@
   text-transform: uppercase;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
+  box-shadow: 0 0 20px 10px lightgray;
 }
 
-.flat-button-1:hover, .flat-button-2:hover, .flat-button-3:hover, {
+.flat-button-1:hover, .flat-button-2:hover, .flat-button-3:hover {
    color: white;
    background-color: #4CAF50; 
-   color: white;
 }
 
 .s1-photo {
-    /*background-image: url(../img/section-1volcano.jpg);*/
     border: 15px solid white;
     width: 50%; 
-    height: 300px;
-    
+    height: 300px;  
 }
 
 #section2 {
@@ -109,7 +107,8 @@
     margin-top: 70px;
     width: 115%;
     height: 46%;
-    border: 10px solid white;   
+    border: 10px solid white; 
+    box-shadow: 0 0 20px 10px lightgray;
 }
 
 .s2-text-1 {
@@ -152,6 +151,7 @@ video {
     width: 100%;
     height: 255px;
     border: 10px solid white;
+    box-shadow: 0 0 20px 10px lightgray;
 }
 
 .s3-header-small {
@@ -167,7 +167,7 @@ video {
     height: 315px;
     position: relative;
     margin-top: -53px;
-    box-shadow: 0 0 6px 3px rgba(58, 219, 253, 0.35);
+    box-shadow: 0 0 20px 10px lightgray;
 }
 
 .white-block-text {
@@ -203,13 +203,9 @@ video {
 
 .flat-button-3 {
     position: relative;
-    margin-top: -90px;
+    box-shadow: 0 0 40px 0 lightgray;
+    left: 35%;
 }
-
-.mt-but-3 {
-    margin-top: -15px;
-}
-
 
 /* Section 5*/
 
@@ -219,21 +215,9 @@ video {
     margin-top: 125px;
 }
 
-/*
-.s5-img-bg {
-    width: 100%;
-    height: 630px;
-    position: relative;
-}*/
-
 .parallax {
-    /* The image used */
     background-image: url('../img/section5.jpg');
-
-     /* Set a specific height */
     min-height: 200px; 
-
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -246,7 +230,7 @@ video {
  height: 325px;
  width: 670px;
  background-color: #3c4f57;
- margin: 0 auto 0 auto!important; /* вирівнювання по центру*/
+ margin: 0 auto 0 auto;
  text-align: center;
  padding-bottom: 20px;
 }
@@ -261,6 +245,7 @@ form {
     text-align: center;
     color: #a2a9ab;
     padding: 60px 100px 0 120px;
+    margin-top: 4px;
 }
 
 .dws-input {
@@ -300,7 +285,6 @@ input[type="text"],input[type="email"]{
 .flat-button-submit:hover {
    color: white;
    background-color: #4CAF50; 
-   color: white;
 }
 
 
