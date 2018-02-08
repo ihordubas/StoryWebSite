@@ -1,4 +1,13 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 /* =================  Header   =============== */
+
+header {
+    margin-bottom: 70px;
+}
 
 .text-top-bar {
     position: relative;
@@ -31,6 +40,35 @@
     height: auto;
 }
 
+.menu-text {
+    width: 30%;
+    margin-left: 10%;
+    margin-right: 0;
+}
+
+.menu-photo {
+    width: 50%;
+    float: right; 
+}
+
+.s1-photo {
+    border: 15px solid white; 
+    border-right: 0;
+    height: 550px;
+    width: 100%;
+    float: right;
+    box-shadow: 0 0 20px 10px lightgray;
+}
+
+.rose-block {
+    width: 345px;
+    height: 220px;
+    border: 10px solid white;
+    box-shadow: 0 0 20px 10px lightgray; 
+    position: absolute;
+    float: right;
+    margin: 100px 0 0 600px; 
+}
 
 .s1-header-small {
     font-size: 14px;
@@ -78,11 +116,6 @@
    background-color: #4CAF50; 
 }
 
-.s1-photo {
-    border: 15px solid white;
-    width: 50%; 
-    height: 300px;  
-}
 
 #section2 {
     margin-top: 220px;
